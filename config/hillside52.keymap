@@ -53,10 +53,10 @@
  */
 
             bindings = <
-&kp GRAVE  &kp N1   &kp N2  &kp N3  &kp N4  &kp N5                                     &kp N6     &kp N7    &kp N8  &kp N9    &kp N0     &trans
-&none      &none    &none   &none   &none   &none                                      &kp PG_UP  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &kp PG_DN
-&trans     &kp F1   &kp F2  &kp F3  &kp F4  &kp F5  &kp Undo                 &kp Redo  &kp F6     &kp F7    &kp F8  &kp F9    &kp F10    &trans
-&kp F11    &kp F12  &trans          &trans  &trans  &trans    &trans  &none  &trans    &trans     &trans            &none     &kp HOME   &kp END
+&kp GRAVE  &kp N1   &kp N2    &kp N3  &kp N4  &kp N5                                     &kp N6     &kp N7    &kp N8  &kp N9    &kp N0     &trans
+&none      &none    &none     &none   &none   &none                                      &kp PG_UP  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &kp PG_DN
+&trans     &kp F1   &kp F2    &kp F3  &kp F4  &kp F5  &kp Undo                 &kp Redo  &kp F6     &kp F7    &kp F8  &kp F9    &kp F10    &trans
+&kp F11    &kp F12  &kp RALT          &trans  &trans  &trans    &trans  &none  &trans    &trans     &trans            &none     &kp HOME   &kp END
             >;
         };
 
@@ -87,10 +87,10 @@
  */
 
             bindings = <
-&none        &to 0         &to 0         &to 0         &none         &none                                             &none            &kp PRINTSCREEN  &none      &ext_power EP_OFF  &ext_power EP_ON  &none
-&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                      &kp KP_SUBTRACT  &kp FSLH         &none      &none              &none             &none
-&bootloader  &sys_reset    &none         &out OUT_USB  &out OUT_BLE  &none         &bt BT_CLR                  &none   &kp UNDER        &kp BACKSLASH    &kp MINUS  &kp KP_SUBTRACT    &none             &trans
-&none        &none         &trans                      &trans        &trans        &trans      &trans  &trans  &trans  &trans           &trans                      &kp RCTRL          &none             &none
+&none        &to 0         &to 0         &to 0         &none         &none                                             &none   &kp PRINTSCREEN  &none  &ext_power EP_OFF  &ext_power EP_ON  &none
+&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                      &none   &none            &none  &none              &none             &none
+&bootloader  &sys_reset    &none         &out OUT_USB  &out OUT_BLE  &none         &bt BT_CLR                  &none   &none   &none            &none  &none              &none             &trans
+&none        &none         &trans                      &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans                  &none              &none             &none
             >;
         };
     };
