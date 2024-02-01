@@ -92,8 +92,6 @@
 &bootloader  &sys_reset    &none         &out OUT_USB  &out OUT_BLE  &none         &bt BT_CLR                  &none   &kp UNDER        &kp BACKSLASH    &kp MINUS  &kp KP_SUBTRACT    &none             &trans
 &none        &none         &trans                      &trans        &trans        &trans      &trans  &trans  &trans  &trans           &trans                      &kp RCTRL          &none             &none
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
