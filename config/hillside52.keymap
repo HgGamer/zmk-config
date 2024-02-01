@@ -74,7 +74,7 @@
             bindings = <
 &kp INS     &kp EXCL   &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT                                   &none      &none   &kp N0         &kp MINUS         &kp EQUAL          &kp DEL
 &caps_word  &kp BSLH   &kp MINUS  &kp EQUAL  &kp LBKT    &kp RBKT                                      &none      &none   &none          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans      &kp PIPE   &kp UNDER  &kp PLUS   &kp LBRC    &kp RBRC     &kp C_PP                 &none   &none      &none   &kp SEMICOLON  &kp SINGLE_QUOTE  &kp BACKSLASH      &trans
+&trans      &kp PIPE   &kp UNDER  &kp PLUS   &kp LBRC    &kp RBRC     &kp C_PP                 &none   &none      &none   &kp SEMICOLON  &kp SINGLE_QUOTE  &kp BACKSLASH      &kp NON_US_BSLH
 &none       &kp COMMA  &trans                &trans      &trans       &trans    &none  &trans  &trans  &kp SPACE  &trans                 &kp RCTRL         &kp K_APP          &sk RALT
             >;
         };
