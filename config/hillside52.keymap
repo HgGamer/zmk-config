@@ -70,7 +70,7 @@
  */
 
             bindings = <
-&kp INS     &kp RA(Q)  &kp AT     &kp HASH   &kp LS(N8)  &kp LS(N9)                                   &none             &none            &kp N0         &kp MINUS         &kp EQUAL          &kp DEL
+&kp INS     &kp RA(Q)  &kp RA(W)  &kp HASH   &kp LS(N8)  &kp LS(N9)                                   &none             &none            &kp N0         &kp MINUS         &kp EQUAL          &kp DEL
 &caps_word  &kp BSLH   &kp MINUS  &kp EQUAL  &kp RA(F)   &kp RA(G)                                    &kp LS(NUMBER_6)  &kp NON_US_BSLH  &none          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &trans      &kp PIPE   &kp UNDER  &kp PLUS   &kp RA(B)   &kp RA(N)   &kp C_PP                 &none   &kp RA(M)         &kp RA(PERIOD)   &kp SEMICOLON  &kp SINGLE_QUOTE  &kp BACKSLASH      &none
 &none       &kp COMMA  &trans                &trans      &trans      &trans    &none  &trans  &trans  &kp SPACE         &trans                          &kp RCTRL         &kp K_APP          &sk RALT
