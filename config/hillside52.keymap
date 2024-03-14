@@ -36,10 +36,10 @@
  */
 
             bindings = <
-&kp ESC    &kp Q  &kp W     &kp E  &kp R     &kp T                                     &kp Y      &kp U     &kp I      &kp O     &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S     &kp D  &kp F     &kp G                                     &kp H      &kp J     &kp K      &kp L     &kp SEMI  &kp ENTER
-&kp LSHFT  &kp Z  &kp X     &kp C  &kp V     &kp B         &mo 3                &mo 3  &kp N      &kp M     &kp COMMA  &kp DOT   &kp UP    &kp FSLH
-&kp LCTRL  &none  &kp RALT         &kp RALT  &kp LEFT_WIN  &mo 4  &mo 2  &mo 2  &mo 1  &kp SPACE  &kp RALT             &kp LEFT  &kp DOWN  &kp RIGHT
+&kp ESC    &kp Q  &kp W         &kp E  &kp R     &kp T                                  &kp Y      &kp U     &kp I      &kp O     &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S         &kp D  &kp F     &kp G                                  &kp H      &kp J     &kp K      &kp L     &kp SEMI  &kp ENTER
+&kp LSHFT  &kp Z  &kp X         &kp C  &kp V     &kp B      &mo 3                &mo 3  &kp N      &kp M     &kp COMMA  &kp DOT   &kp UP    &kp FSLH
+&kp LCTRL  &none  &kp LEFT_WIN         &kp RALT  &kp SPACE  &mo 4  &mo 2  &mo 2  &mo 1  &kp SPACE  &kp RALT             &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
 
