@@ -4,6 +4,7 @@ name: Hillside52
 type: shield
 url: https://github.com/mmccoyd/hillside/
 requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
   - display
