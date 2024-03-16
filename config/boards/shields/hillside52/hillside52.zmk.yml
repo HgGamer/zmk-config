@@ -6,6 +6,7 @@ url: https://github.com/mmccoyd/hillside/
 requires: [pro_micro]
 features:
   - keys
+  - display
 siblings:
   - hillside52_left
   - hillside52_right
