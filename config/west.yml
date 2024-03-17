@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: HgGamer
+      url-base: https://github.com/HgGamer
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: HgGamer
       revision: main
       import: app/west.yml
   self:
