@@ -143,7 +143,7 @@ RC(3,0) RC(3,1) RC(3,2)         RC(4,1) RC(4,2) RC(4,3) RC(4,4)   RC(4,7) RC(4,8
 // The PS/2 GPIO driver
 / {
     gpio_ps2: gpio_ps2 {
-		status = "okay";
+		status = "disabled";
         compatible = "gpio-ps2";
         scl-gpios = MOUSE_PS2_PIN_SCL_PRO_MICRO;
         sda-gpios = MOUSE_PS2_PIN_SDA_PRO_MICRO;
@@ -189,7 +189,7 @@ RC(3,0) RC(3,1) RC(3,2)         RC(4,1) RC(4,2) RC(4,3) RC(4,4)   RC(4,7) RC(4,8
 
 
 &uart0 {
-	status = "disabled";
+	status = "okay";
 	compatible = "nordic,nrf-uarte";
 
 	// PS/2 uses a clock pin to syncronize data transmissions. UART on the
@@ -229,7 +229,7 @@ RC(3,0) RC(3,1) RC(3,2)         RC(4,1) RC(4,2) RC(4,3) RC(4,4)   RC(4,7) RC(4,8
 	pinctrl-names = "default", "sleep";
 
     uart_ps2: uart_ps2 {
-        status="disabled";
+        status="okay";
         compatible = "uart-ps2";
         scl-gpios = MOUSE_PS2_PIN_SCL_PRO_MICRO;
         sda-gpios = MOUSE_PS2_PIN_SDA_PRO_MICRO;
