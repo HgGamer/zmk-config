@@ -1,7 +1,7 @@
 # Copyright (c) 2021-2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_HILLSIDE52_LEFT
+if SHIELD_HILLSIDE52_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Hillside52"
@@ -10,11 +10,7 @@ config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 endif
-
-if SHIELD_HILLSIDE52_LEFT || SHIELD_HILLSIDE52_RIGHT
-
-config ZMK_SPLIT
-    default y
+if SHIELD_HILLSIDE52_LEFT
 if ZMK_DISPLAY
 
 config I2C
@@ -24,6 +20,13 @@ config SSD1306
     default y
 
 endif # ZMK_DISPLAY
+
+endif
+if SHIELD_HILLSIDE52_LEFT || SHIELD_HILLSIDE52_RIGHT
+
+config ZMK_SPLIT
+    default y
+
 if LVGL
 
 config LV_Z_VDB_SIZE
