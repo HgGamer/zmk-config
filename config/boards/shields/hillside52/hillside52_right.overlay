@@ -9,9 +9,7 @@
 &default_transform {
     col-offset = <6>;
 };
-&mouse_ps2 {
-	status = "okay";
-};
+
 // Adjust GPIO interrupt priority to the highest level.
 // PS/2 events must be processed within 30-50us. Therefore we change the
 // default gpio priority to the highest and we demote all BT interrupt
