@@ -21,7 +21,8 @@
 #define Copy   LC(C)
 #define Paste  LC(V)
 #define Redo   LC(Y)
-
+#define HAS_MOUSE_KEYS
+#define HAS_MOUSE_TP
 / {
     keymap {
         compatible = "zmk,keymap";
