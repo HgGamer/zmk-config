@@ -68,6 +68,7 @@ RC(3,0) RC(3,1) RC(3,2)         RC(4,1) RC(4,2) RC(4,3) RC(4,4)   RC(4,7) RC(4,8
         };
     
 };
+/*
 &pro_micro_i2c {
     status = "okay";
 
