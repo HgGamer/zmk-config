@@ -10,18 +10,18 @@ config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 endif
-if SHIELD_HILLSIDE52_LEFT
-if ZMK_DISPLAY
-
-config I2C
-    default y
-
-config SSD1306
-    default y
-
-endif # ZMK_DISPLAY
-
-endif
+#if SHIELD_HILLSIDE52_LEFT
+#if ZMK_DISPLAY
+#
+#config I2C
+#    default y
+#
+#config SSD1306
+#    default y
+#
+#endif # ZMK_DISPLAY
+#
+#endif
 if SHIELD_HILLSIDE52_LEFT || SHIELD_HILLSIDE52_RIGHT
 
 config ZMK_SPLIT
