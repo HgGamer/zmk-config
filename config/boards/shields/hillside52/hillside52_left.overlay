@@ -31,7 +31,7 @@
 // Comment out the following define to use the GPIO driver instead of UART
 // (this is not recommended unless you can't use the UART driver for whatever
 // reason)
-#define MOUSE_PS2_DRIVER_UART
+//#define MOUSE_PS2_DRIVER_UART
 
 #ifdef MOUSE_PS2_DRIVER_UART
     &uart0 {
