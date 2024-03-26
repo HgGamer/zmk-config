@@ -21,6 +21,9 @@
 #define Copy   LC(C)
 #define Paste  LC(V)
 #define Redo   LC(Y)
+#define MOUSE_KEYS 11
+#define MOUSE_TP 12
+#define MOUSE_SET 13
 #define HAS_UROB
 #define HAS_MOUSE_KEYS
 #define HAS_MOUSE_TP
