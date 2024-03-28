@@ -112,8 +112,8 @@
     // impact). Alternatively consider achieving the same effect using the
     //  `zmk,input-configs` feature.
     // tp-xy-swap;
-    tp-x-invert;
-    //tp-y-invert;
+    //tp-x-invert;
+    tp-y-invert;
 
   };
 
