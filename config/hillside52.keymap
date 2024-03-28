@@ -133,7 +133,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                                  &mkp MB1  &mkp MB2  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans    &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans &kp RA(M)         &kp RA(PERIOD)    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans            &trans  &trans  &trans
             >;
         };
