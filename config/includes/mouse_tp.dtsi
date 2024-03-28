@@ -113,7 +113,7 @@
     //  `zmk,input-configs` feature.
     // tp-xy-swap;
     tp-x-invert;
-    tp-y-invert;
+    //tp-y-invert;
 
   };
 
