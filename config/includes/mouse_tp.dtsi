@@ -90,8 +90,8 @@
 
 
     // Enable clicking by tapping on the TP. Not all TPs support this.
-    tp-press-to-select;
-    tp-press-to-select-threshold = <10>;
+    //tp-press-to-select;
+    //tp-press-to-select-threshold = <10>;
 
 
     // How sensitive the TP is (Default: 128)
@@ -112,7 +112,7 @@
     // impact). Alternatively consider achieving the same effect using the
     //  `zmk,input-configs` feature.
     // tp-xy-swap;
-    //tp-x-invert;
+    tp-x-invert;
     tp-y-invert;
 
   };
