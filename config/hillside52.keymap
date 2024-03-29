@@ -124,7 +124,7 @@
         layer_6 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &kp BACKSLASH  &trans  &kp LEFT_BRACKET  &trans  &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans  &trans                                  U_WH_U  &trans         &trans  &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &msc SCRL_UP  &trans         &trans  &trans            &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans         &trans  &trans            &trans  &trans
 &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans            &trans  &trans
             >;
