@@ -123,11 +123,11 @@
         };
 
         layer_6 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &mkp LCLK          &mkp RCLK            &mkp MCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                  &msc SCROLL_UP(5)  &msc SCROLL_DOWN(5)  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp RA(M)          &kp RA(PERIOD)       &trans     &trans  &trans  &trans
-&trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans                          &trans  &trans  &trans
+             bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &kp BACKSLASH  &trans  &kp LEFT_BRACKET  &trans  &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans         &trans  &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans         &trans  &trans            &trans  &trans
+&trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans            &trans  &trans
             >;
         };
     };
