@@ -121,12 +121,12 @@
             >;
         };
 
-        layer_7 {
+        mousekeys {
             bindings = <
-&kp INS     &kp RA(Q)         &kp SEMICOLON  &kp SEMI   &kp LS(N8)  &kp LS(N9)                                   &mkp LCLK     &mkp RCLK       &trans  &kp EQUAL  &none              &kp DELETE
-&caps_word  &kp SINGLE_QUOTE  &kp MINUS      &kp EQUAL  &kp RA(F)   &kp RA(G)                                    &msc SCRL_UP  &msc SCRL_DOWN  &none   &none      &none              &trans
-&trans      &kp PIPE          &kp UNDER      &kp PLUS   &kp RA(B)   &kp RA(N)   &kp C_PP                 &none   &kp RA(M)     &kp RA(PERIOD)  &none   &none      &kp C_VOLUME_UP    &none
-&none       &kp COMMA         &trans                    &trans      &trans      &mo 5     &none  &trans  &trans  &kp SPACE     &trans                  &trans     &kp C_VOLUME_DOWN  &sk C_NEXT
+&kp INS     &kp RA(Q)         &kp SEMICOLON  &kp SEMI   &kp LS(N8)  &kp LS(N9)                                   &mkp LCLK     &mkp RCLK       &mkp MCLK  &kp EQUAL  &none              &kp DELETE
+&caps_word  &kp SINGLE_QUOTE  &kp MINUS      &kp EQUAL  &kp RA(F)   &kp RA(G)                                    &msc SCRL_UP  &msc SCRL_DOWN  &none      &none      &none              &trans
+&trans      &kp PIPE          &kp UNDER      &kp PLUS   &kp RA(B)   &kp RA(N)   &kp C_PP                 &none   &kp RA(M)     &kp RA(PERIOD)  &none      &none      &kp C_VOLUME_UP    &none
+&none       &kp COMMA         &trans                    &trans      &trans      &mo 5     &none  &trans  &trans  &kp SPACE     &trans                     &trans     &kp C_VOLUME_DOWN  &sk C_NEXT
             >;
         };
     };
