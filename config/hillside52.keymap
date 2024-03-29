@@ -125,7 +125,7 @@
         layer_6 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                  &mkp MB1  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &mwh MB1  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans  &trans  &trans
             >;
