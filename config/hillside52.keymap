@@ -125,7 +125,7 @@
         layer_6 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans            &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                  &mwh SCROLL_DOWN  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &mwh SCROLL_VERT(-15)  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans            &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans
             >;
