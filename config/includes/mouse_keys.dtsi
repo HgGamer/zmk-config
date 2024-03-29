@@ -3,12 +3,6 @@
   #include <behaviors/mouse_keys.dtsi>
 #endif
 
-&mwh {
-  acceleration-exponent = <1>;      // 0
-  time-to-max-speed-ms = <500>;    // 40
-  delay-ms = <0>;                   // 10
-};
-
 // Below are settings and behavior defines for mouse keys.
 &mmv {
   acceleration-exponent = <1>;      // Default: 1
