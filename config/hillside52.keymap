@@ -124,10 +124,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &mkp LCLK       &mkp RCLK         &mkp MCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                  &msc SCROLL_UP  &msc SCROLL_DOWN  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp RA(M)       &kp RA(PERIOD)    &trans     &trans  &trans  &trans
-&trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans                       &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &mkp LCLK          &mkp RCLK            &mkp MCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &msc SCROLL_UP(5)  &msc SCROLL_DOWN(5)  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp RA(M)          &kp RA(PERIOD)       &trans     &trans  &trans  &trans
+&trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans                          &trans  &trans  &trans
             >;
         };
     };
