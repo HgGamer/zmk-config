@@ -23,7 +23,6 @@
 #define HAS_MOUSE_TP
 
 #include <dt-bindings/zmk/mouse.h>
-#include <behaviors/mouse_keys.dtsi>
 #include "includes/mouse_keys.dtsi"
 #include "includes/mouse_tp.dtsi"
 #include <behaviors.dtsi>
