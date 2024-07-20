@@ -10,7 +10,7 @@ It contains keymap definition files for three boards in [./config](./config):
 
  - Hillside 52 with 3x6+3+5 keys
  - Hillside 48 with 3x6+1+5 keys
- - Hillside 46 with 3x6+5 keys
+ - Hillside 46 with 3x6+5 keys 
 
 Pushing changes will build all the keyboards. You need to be signed in to a GitHub account to push changes and build the firmware. To not waste build time, comment out the keyboards in [./build.yaml](./build.yaml) that you do not have.
 
